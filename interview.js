@@ -4,6 +4,7 @@
 
 var numArray = [2,4,6,8]
 var x = ''
+var y = ''
 
 for (i = 0; i < numArray.length; i+= 2){
 	if (numArray[i] > numArray[i + 2]){
@@ -11,14 +12,18 @@ for (i = 0; i < numArray.length; i+= 2){
 	}else{
 		x = (numArray[i + 2])
 	}
-	console.log(x)
+	break
 }
+console.log(x)
 for(j = 1; j < numArray.length; i+= 2){
 	if (numArray[j] > numArray[j + 2]){
-		x = (numArray[j])
+		y = (numArray[j])
 	}else{
-		x = (numArray[j + 2])
+		y = (numArray[j + 2])
+
 	}
-	console.log(x)
+	break
 }
+console.log(y)
+console.log(x+y)
 
