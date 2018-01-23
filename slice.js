@@ -22,4 +22,11 @@ var newFunction = sliceNumbers()
 console.log(newFunction) /////this console logs the return value from sliceNumbers
 
 
+////////USING FOREACH FUNCTION TO SLICE NUMBERS IN ARRAY/////
+
+// function showNumbers(values){
+// 	console.log(values.slice(0,3))
+// }
+
+// numbers.forEach(showNumbers)
 
